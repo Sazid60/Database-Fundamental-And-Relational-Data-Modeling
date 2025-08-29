@@ -70,3 +70,15 @@ In this module, you’ll learn the foundations of databases and the relational m
 ![alt text](image-4.png)
 
 - We could do searching using the unique key and indexing 
+
+## 42-4 The anatomy of a table or relation
+- In relation model data is stored in table format and these tables are called relations which means real life/ imaginary entity. 
+- Each row of the table are called `ROWS/RECORDS/TUPLES`
+- Combination of the rows or all the rows combined are called `cardinality`
+- Each columns are called `Column/Attribute`. We can set fixed type to a column like email or dob these are called `constraint/domain`
+- All the Columns are called all together `Degree/Collection of Columns` 
+
+![alt text](image-5.png)
+
+
+## 42-5 Keys in Databases: Super key
