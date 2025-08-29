@@ -38,3 +38,35 @@ In this module, you’ll learn the foundations of databases and the relational m
 - `Relational` - Mysql, postgresql, sqlite, sql server
 - `Document` - Mongodb, Dynamodb
 - `Key value` - Redis 
+
+## 42-3 Types of Database Models
+### Models 
+- Hierarchical
+- Network
+- Relational
+- Document
+- Key value 
+
+#### Hierarchical Model 
+- It is used to create tree of parent child(node) 
+- The main problem of the model was one child(node) can not have multiple parent 
+
+
+![alt text](image-2.png)
+
+#### Network Model
+- The problem of Hierarchical Model  was solved in Network Model 
+- Here a node or child can have multiple parents 
+- The problems of the model was like it was `Complex`, has no `Schema Definition`, and has `Lack Of Scandalization`
+
+![alt text](image-3.png)
+
+
+#### Relational Model
+- All the problems of Network model and Hierarchical Model were solved by relational model 
+- Data is stored in `table format` here 
+
+
+![alt text](image-4.png)
+
+- We could do searching using the unique key and indexing 
