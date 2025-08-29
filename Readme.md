@@ -17,3 +17,24 @@ In this module, you’ll learn the foundations of databases and the relational m
 - Information is processed and organized data that provides meaningful context, insight or knowledge. 
 
 ![alt text](image.png)
+
+## 42-2 Why File Systems Fail
+- Full Form of dbms is database management system 
+
+### How Do we Store Data Using File System? 
+- We could use file system to store the data as well instead of database 
+    1. We have Multiple formate data (.txt.mp4, etc). Combining these all and work will be a hassle because we have to make different program to grab information we need a specific system. 
+    2. Data Redundancy (data duplication) problem will appear
+    3. Data Inconsistency will appear
+    4. No Concurrency Protocol (there is no fixed rules like which works will be done first)
+    5. There will be security issue (Either we have to give full access to a user or none)
+
+![alt text](image-1.png)
+
+### For Solving the drawback of the file system dbms came 
+- Dbms take all the responsibilities for managing data 
+
+#### Popular database management system 
+- `Relational` - Mysql, postgresql, sqlite, sql server
+- `Document` - Mongodb, Dynamodb
+- `Key value` - Redis 
