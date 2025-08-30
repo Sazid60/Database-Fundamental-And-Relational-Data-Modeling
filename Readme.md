@@ -115,4 +115,39 @@ email, gender, age}, {name, email}, {name, gender}
 {...}. The main purpose is to identify uniquely 
 
 ## 42-6 Candidate Keys, Subsets & Proper Subsets Explained
+#### what is proper sub set ?
+- The separated value will be less than the actual set values 
+- proper subset values are also subset but the trick is it can not contain all the value {1,2,3}
+- All subset is not proper subset but all proper subset is subset  
+``` 
+# main set
+A = {1, 2, 3}
 
+Subset of A = {}, {1}, {2}, {3}, {1,2}, {2,3}, {1,3}, {1,2,3}
+
+Proper subset of A = {}, {1}, {2}, {3}, {1,2}, {1,3}, {2,3}
+
+# proper subset values are also subset but the trick is it can not contain all the value {1,2,3}
+```
+### Candidate Key 
+- Super key whose proper subset is not a super key
+- Also called Minimal Super key (means if we break we will not get any super key)
+- Potential Primary Key: From the candidate keys, one is chosen as the primary key
+
+![alt text](image-10.png)
+
+```
+### super key: {u_id}, {email}, {u_id, name}, {u_id, email}, {u_id,
+name, email, gender, age}, {name, email}, {name, gender} {...}
+
+{u_id} = {}, {u_id} // we find no super key if we break so candidate key 
+
+{email} = {}, {email} // we find no super key if we break so candidate key 
+
+{u_id, name} = {}, {u_id}, {name}, {u_id, name} // we found  {u_id} which is a super key if we break in subset and see the proper subset so its not a candidate key 
+
+{u_id, email} = {}, {u_id}, {emal}, {u_id, email} // we found  {u_id} and {emal} which are individually a super key if we break in subset and see the proper subset so its not a candidate key 
+
+{name, gender} = {}, {name}, {gender}, {name, gender} // we find no super key if we break so candidate key 
+```
+- From the candidate key we choose primary key and the smallest key is considered like {u_id}
