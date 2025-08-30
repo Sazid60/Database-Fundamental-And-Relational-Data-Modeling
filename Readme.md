@@ -235,3 +235,14 @@ Primary Key : {u_id}
 
 ##### Relationship Cardinality
 - Relationship cardinality is the rule that defines how many instances(row) of one entity can be associated with instances(row) of another entity in a database.
+
+![alt text](image-22.png)
+
+## 42-10 Relationship cardinality and ER Diagrams
+
+![alt text](image-23.png)
+
+### Entity-Relationship (ER) diagram
+- ER diagram is a diagram that shows entities, their attributes, and the relationships between them. 
+
+![alt text](image-24.png)
