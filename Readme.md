@@ -193,3 +193,45 @@ Primary Key : {u_id}
 ![alt text](image-15.png)
 
 - A foreign key is an attribute in one table that refers to the primary key of another table, creating a relationship between the two tables.
+
+## 42-9 Database Design Process: Step-by-Step
+
+### SDL 
+- SDLC means Software Development Lifecycle. we have different layers of SDLC 
+    1. Planning
+    2. Analysis
+    3. System Design 
+    4. Building
+    5. Testing
+    6. Deployment 
+
+#### System Design 
+- In this stage we have to design the database 
+- Database design is required for Structured organization for efficient data management and retrieval
+
+![alt text](image-16.png)
+
+![alt text](image-17.png)
+
+![alt text](image-18.png)
+
+- To design the database we will have to follow some criteria 
+    1. Determine Entities (For Which we have to make table)
+    2. Determine Attributes For Each Entities
+    3. Relationship Among Entities (Resolve Many To Many Relationship)
+    4. Resolving Many To Many Relationship 
+
+![alt text](image-19.png)
+
+#### Determine Entities
+
+![alt text](image-20.png)
+
+#### Determining Attributes 
+
+![alt text](image-21.png)
+
+#### Relationship Among Entities
+
+##### Relationship Cardinality
+- Relationship cardinality is the rule that defines how many instances(row) of one entity can be associated with instances(row) of another entity in a database.
