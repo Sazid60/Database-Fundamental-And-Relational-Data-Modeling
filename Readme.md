@@ -82,3 +82,37 @@ In this module, you’ll learn the foundations of databases and the relational m
 
 
 ## 42-5 Keys in Databases: Super key
+
+![alt text](image-6.png)
+
+- In here u_id is a key 
+- combining u_id and name can be also a key 
+
+### What is Key ?
+
+- A key ina  relational database is a field or a combination of fields that uniquely Identifies a record in a table. 
+
+![alt text](image-7.png)
+
+- there different kind of key 
+    1. Super key
+    2. Candidate Key 
+    3. Primary Key
+    4. Alternate Key 
+    5. Composite Key 
+    6. Foreign Key 
+
+#### Super key 
+
+- Attributes or set of Attributes by which we can identify each row uniquely 
+- Could be a single attribute or a set of attribute 
+- Could have null values in the set 
+
+![alt text](image-9.png)
+
+- primary key combination will be single or multiple {u_id},  {u_id, name},  {u_id, email}, {u_id, name,
+email, gender, age}, {name, email}, {name, gender}
+{...}. The main purpose is to identify uniquely 
+
+## 42-6 Candidate Keys, Subsets & Proper Subsets Explained
+
