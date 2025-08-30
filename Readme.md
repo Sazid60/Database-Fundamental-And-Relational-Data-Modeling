@@ -185,3 +185,11 @@ Primary Key : {u_id}
 
 ![alt text](image-14.png)
 
+## 42-8 Foreign keys Explained
+
+### Foreign Key 
+- Using the foreign key table relations are made for this reason its important 
+
+![alt text](image-15.png)
+
+- A foreign key is an attribute in one table that refers to the primary key of another table, creating a relationship between the two tables.
