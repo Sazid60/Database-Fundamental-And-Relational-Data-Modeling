@@ -151,3 +151,37 @@ name, email, gender, age}, {name, email}, {name, gender} {...}
 {name, gender} = {}, {name}, {gender}, {name, gender} // we find no super key if we break so candidate key 
 ```
 - From the candidate key we choose primary key and the smallest key is considered like {u_id}
+
+## 42-7 Primary, Alternate, Simple and composite keys
+
+### Primary Key 
+
+- From the candidate key a user will choose the primary key and the chosen key is the primary key 
+- From the candidate keys, one key is chosen as the primary key for the table. The primary key is a specific candidate key that is selected as the main identifier for the records in that table
+- `Should be unique, not null and stable`
+
+```
+Candidate Key: {u_id}, {email}, {name, gender}
+
+Primary Key : {u_id}
+```
+
+![alt text](image-11.png)
+
+### Alternate Key 
+
+-  Candidate keys which were not chosen as primary key
+
+![alt text](image-12.png)
+
+### Composite key 
+- A composite key is a candidate key that consists of two or more attributes together to uniquely identify a record in a table.
+
+![alt text](image-13.png)
+
+### Simple Key 
+
+- Its Simply the reverse of the composite key the single fields that are singular among the alternate key 
+
+![alt text](image-14.png)
+
